@@ -1,0 +1,38 @@
+{
+  "MathMod:SettlePower": {
+    "NAME": "结算",
+    "DESCRIPTIONS": [
+      "回合开始时，将 #b%d 张 #y等号 加入你的手牌。"
+    ]
+  },
+  "MathMod:DiceRulePower": {
+    "NAME": "骰子规则",
+    "DESCRIPTIONS": [
+      "当前的 #y赋值 范围为 #b1-6 。"
+    ]
+  },
+  "MathMod:UltimateAnswerPower": {
+    "NAME": "终极答案",
+    "DESCRIPTIONS": [
+      "当所有手牌的值之和为 #b42 时，进入 #y神格 。",
+      "当前手牌的值之和为 #b ",
+      " 。"
+    ]
+  },
+  "MathMod:TwentyFourPower": {
+    "NAME": "二十四点",
+    "DESCRIPTIONS": [
+      "当你在一回合内连续打出的4张牌的值可以计算出 #b24 点时，对所有敌人造成 #b%d 点伤害。每回合只能触发一次。",
+      "本回合打出过的牌的值：",
+      ", ",
+      "本回合已经触发过这个效果了。"
+    ]
+  },
+  "MathMod:BetPower": {
+    "NAME": "被下注",
+    "DESCRIPTIONS": [
+      "如果该敌人被击杀时没有其他敌人存活，获得 #b",
+      " 金币。"
+    ]
+  }
+}

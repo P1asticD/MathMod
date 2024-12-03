@@ -1,0 +1,18 @@
+{
+  "UpValueAction": {
+    "TEXT": [
+      "选择一张手牌，修改它的值。"
+    ]
+  },
+  "FourColorAction": {
+    "TEXT": [
+      "选一张牌。"
+    ]
+  },
+  "PackAction": {
+    "TEXT": [
+      "选择2张牌打包。",
+      "选择3张牌打包。"
+    ]
+  }
+}

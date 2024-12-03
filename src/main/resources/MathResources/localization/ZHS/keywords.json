@@ -1,0 +1,23 @@
+[
+  {
+    "NAMES": [
+      "赋值",
+      "Assignment"
+    ],
+    "DESCRIPTION": "每场战斗开始时，牌库中所有具有 #y赋值 的牌获得一个值。没有 #y赋值 的牌与其他颜色的牌的值固定为 #r0 且无法被更改。"
+  },
+  {
+    "NAMES": [
+      "临时消耗性",
+      "TempExhaustive"
+    ],
+    "DESCRIPTION": "当你在 #y同一回合内 打出一定次数后， #y消耗 。"
+  },
+  {
+    "NAMES": [
+      "下注",
+      "Bet"
+    ],
+    "DESCRIPTION": ""
+  }
+]

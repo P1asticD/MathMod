@@ -1,0 +1,122 @@
+{
+  "MathMod:Strike": {
+    "NAME": "打击",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 赋值 ",
+    "EXTENDED_DESCRIPTION": [": !M2! "]
+  },
+  "MathMod:Defend": {
+    "NAME": "防御",
+    "DESCRIPTION": "获得 !B! 点格挡。 NL 赋值 ",
+    "EXTENDED_DESCRIPTION": [": !M2! "]
+  },
+  "MathMod:Multiplication": {
+    "NAME": "乘法",
+    "DESCRIPTION": "造成这张牌左右两边的牌的值的乘积点伤害。",
+    "EXTENDED_DESCRIPTION": [" NL （造成 !D! 点伤害。）"]
+  },
+  "MathMod:Addition": {
+    "NAME": "加法",
+    "DESCRIPTION": "获得 !B! 点格挡。 NL 当这张牌在手牌中时，你每打出一张牌，这张牌下次打出前的格挡增加打出的牌的值。",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL 获得 !B! 点格挡。 NL 当这张牌在手牌中时，你每打出一张牌，这张牌下次打出前的格挡增加打出的牌的值。"
+  },
+  "MathMod:Subtraction": {
+    "NAME": "减法",
+    "DESCRIPTION": "造成 !D! 点伤害。本场战斗中，你每打出一张牌，这张牌的伤害降低打出的牌的值。 NL 当这张牌的伤害小于等于0时， 消耗 这张牌。"
+  },
+  "MathMod:EqualsSign": {
+    "NAME": "等号",
+    "DESCRIPTION": "造成本回合打出的所有卡牌的值总和点伤害。 NL 结束你的回合。 NL 消耗 。 虚无 。",
+    "EXTENDED_DESCRIPTION": [" NL （造成 !D! 点伤害。）"]
+  },
+  "MathMod:Settlement": {
+    "NAME": "结算",
+    "DESCRIPTION": " 固有 。回合开始时，将一张 *等号 加入你的手牌。",
+    "UPGRADE_DESCRIPTION": " 固有 。将一张 *等号 加入你的手牌。 NL 回合开始时，将一张 *等号 加入你的手牌。"
+  },
+  "MathMod:CommutativeLaw": {
+    "NAME": "交换律",
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL 打出后，在本场战斗中将该卡的攻击次数与值交换。 NL 赋值 ",
+    "EXTENDED_DESCRIPTION": [": !M2! "]
+  },
+  "MathMod:DistributiveLaw": {
+    "NAME": "分配律",
+    "DESCRIPTION": "随机获得 !M! 点 格挡 与 活力 。 NL 若该卡的值大于等于5，优先获得 格挡 直到你能完全格挡住即将受到的伤害。 NL 赋值 ",
+    "EXTENDED_DESCRIPTION": [": !M2! "]
+  },
+  "MathMod:BinIronWave": {
+    "NAME": "二进制铁斩波",
+    "DESCRIPTION": "获得 !M! 倍0的数量点 格挡 ，造成 !M! 倍1的数量点伤害。 NL 二进制 赋值 ",
+    "EXTENDED_DESCRIPTION": [" NL （获得 !B! 点 格挡 ，造成 !D! 点伤害。）"]
+  },
+  "MathMod:Hours": {
+    "NAME": "时针",
+    "DESCRIPTION": "造成 !D! 点伤害，这张牌的值固定为当前的小时。 NL 赋值 ",
+    "EXTENDED_DESCRIPTION": [": !M2! "]
+  },
+  "MathMod:UnbearableWeight": {
+    "NAME": "重锤？",
+    "DESCRIPTION": "造成 !D! 点伤害，每当你抽到这张牌时，重新 赋值 ，并使这张牌在在本场战斗中的耗能减少这张牌的值。 NL 赋值 ",
+    "EXTENDED_DESCRIPTION": [": !M2! "]
+  },
+  "MathMod:Homework": {
+    "NAME": "作业",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 拾起时，移除牌组内其他的 *作业 ，这张牌获得它们的 格挡 。 NL 赋值 ",
+    "EXTENDED_DESCRIPTION": [": !M2! "]
+  },
+  "MathMod:AddedDefend": {
+    "NAME": "增值防御",
+    "DESCRIPTION": "获得 !B! 点 格挡 ，选择一张手牌，其值加上这张牌的值。 NL 赋值 ",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 ，所有手牌的值加上这张牌的值。 NL 赋值 ",
+    "EXTENDED_DESCRIPTION": [": !M2! "]
+  },
+  "MathMod:DeratedStrike": {
+    "NAME": "降值打击",
+    "DESCRIPTION": "造成 !D! 点伤害，选择一张手牌，其值减少这张牌的值。 NL 赋值 ",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害 ，所有手牌的值减少这张牌的值。 NL 赋值 ",
+    "EXTENDED_DESCRIPTION": [": !M2! "]
+  },
+  "MathMod:Increase": {
+    "NAME": "递增",
+    "DESCRIPTION": "抽牌，直到最右边手牌的值小于其左边手牌的值。"
+  },
+  "MathMod:UltimateAnswer": {
+    "NAME": "终极答案",
+    "DESCRIPTION": "每回合一次，当所有手牌的值之和等于 !M! 时，进入 神格 。"
+  },
+  "MathMod:MakeZero": {
+    "NAME": "归零",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 无视规则，将所有手牌的值变为 !M! 。"
+  },
+  "MathMod:TwentyFour": {
+    "NAME": "二十四点",
+    "DESCRIPTION": "当你在一回合内连续打出的4张牌的值可以计算出24点时，对所有敌人造成 !M! 点伤害。 NL 每回合只能触发一次。"
+  },
+  "MathMod:FourColorTheorem": {
+    "NAME": "四色定理",
+    "DESCRIPTION": "从4张颜色不同的牌中选择1张加入你的手牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION":"从4张颜色不同的牌中选择1张加入你的手牌。这张牌在本回合中耗能变为0。 NL 消耗 。"
+  },
+  "MathMod:ChessboardWheat": {
+    "NAME": "棋盘麦粒",
+    "DESCRIPTION": "造成 !D! 点伤害。每打出一次，这张牌在本场战斗中的伤害翻倍。 NL 临时消耗性 ： !M! NL 赋值 ",
+    "EXTENDED_DESCRIPTION": [": !M2! ", "NL （本回合已经打出了", "次。）"]
+  },
+  "MathMod:ShadyDeal": {
+    "NAME": "黑幕下注",
+    "DESCRIPTION": "花费10金币，随机选择一名非爪牙敌人。如果该敌人在本场战斗中最后一个死亡，获得等同于打出该牌时存活的敌人数量*10金币。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "花费10金币，随机选择一名非爪牙敌人，给予99层 虚弱 。如果该敌人在本场战斗中最后一个死亡，获得等同于打出该牌时存活的敌人数量*10金币。 NL 消耗 。"
+  },
+  "MathMod:ChickenRabbit": {
+    "NAME": "鸡兔同笼",
+    "DESCRIPTION": "选择抽牌堆里的 !M! 张牌，将它们 *打包 后加入你的手牌。 NL 消耗 。"
+  },
+  "MathMod:OpenCage": {
+    "NAME": "打开笼子",
+    "DESCRIPTION": " 保留 。将被打包的卡加入手牌。 消耗 。"
+  },
+  "MathMod:DiceRule": {
+    "NAME": "骰子规则",
+    "DESCRIPTION": "本场战斗中，变化你的初始遗物（如有），所有卡牌的赋值范围变为1-6，。 NL 重新 赋值 所有牌。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 本场战斗中，变化你的初始遗物（如有），所有卡牌的赋值范围变为1-6，。 NL 重新 赋值 所有牌。"
+  }
+}

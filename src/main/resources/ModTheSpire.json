@@ -1,0 +1,10 @@
+{
+  "modid": "MathMod",
+  "name": "MathMod",
+  "author_list": ["P1asticD"],
+  "description": "A mod about math.",
+  "version": "0.0.1",
+  "sts_version": "12-18-2022",
+  "mts_version": "3.30.3",
+  "dependencies": ["basemod", "stslib"]
+}

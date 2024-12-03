@@ -1,0 +1,26 @@
+{
+  "MathMod:Calculator": {
+    "NAME": "计算器",
+    "FLAVOR": "数学？数学！",
+    "DESCRIPTIONS": [
+      "每回合结束时，获得与手牌中最高的值相等的 #y格挡 。"
+    ]
+  },
+  "MathMod:RuleBook": {
+    "NAME": "规则书",
+    "FLAVOR": "记录",
+    "DESCRIPTIONS": [
+      "当前卡牌赋值的范围为 #b",
+      " NL 所有值对 #b",
+      "0-9 。",
+      "10 取模。"
+    ]
+  },
+  "MathMod:Dices": {
+    "NAME": "骰子",
+    "FLAVOR": "数学？数学！",
+    "DESCRIPTIONS": [
+      "每回合结束时，获得与手牌中除0外最多的值之和的 #y格挡 ，若数量相同则取更大的值。"
+    ]
+  }
+}
